@@ -28,4 +28,4 @@ TODO list:
 
 1. use MD5 hash function.    (Done)
 2. use user-defined string hash function.
-3. 
+3. Counting bloom filter.
