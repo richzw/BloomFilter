@@ -15,3 +15,8 @@ if it were, then all the bits would have been set to 1 when it was inserted.
 If all are 1, then either the element is in the set, or the bits have by chance been set to 1 during the insertion of other elements,
 resulting in a false positive. In a simple bloom filter, there is no way to distinguish between the two cases, 
 but more advanced techniques can address this problem.
+
+TODO list:
+1. use MD5 hash function.    (Done)
+2. use user-defined string hash function.
+3. 
