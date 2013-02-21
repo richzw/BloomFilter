@@ -16,7 +16,16 @@ If all are 1, then either the element is in the set, or the bits have by chance 
 resulting in a false positive. In a simple bloom filter, there is no way to distinguish between the two cases, 
 but more advanced techniques can address this problem.
 
+For details, please refer to http://en.wikipedia.org/wiki/Bloom_filter
+
+User need to determine the number of element n that stored in bloom filter and misjudgment rate p.
+then the bit number m of bit array can be computed by m = -(n*lnp)/(ln2)^2, 
+also the number of hash functions k = (ln2*m)/n.
+
+so the hash function is the key part of bloom filter. what I am going to do as following:
+
 TODO list:
+
 1. use MD5 hash function.    (Done)
 2. use user-defined string hash function.
 3. 
