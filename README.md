@@ -30,3 +30,8 @@ TODO list:
 2. use MPQ hash function.    
 3. Counting bloom filter.
 4. Add test.
+5. 
+
+Reference:
+    http://wiki.devklog.net/index.php?title=The_MoPaQ_Archive_Format
+    http://en.wikipedia.org/wiki/MPQ
