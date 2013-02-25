@@ -29,7 +29,7 @@ private:
 public:
 	bool Hash(string url);
 	unsigned long Hashed(string url);    
-	
+	HASHTABLE GetStringHashTable(unsigned long pos){ return m_HashIndexTable[pos]; }
 	unsigned long GetTableLength(void) { return m_tablelength; }
 };
 #endif
