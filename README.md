@@ -25,7 +25,7 @@ also the number of hash functions k = (ln2*m)/n.
 so the hash function is the key part of bloom filter. what I am going to do as following:
 
 TODO list:
-
+================
 1. use MD5 hash function.    (Done)
 2. use MPQ hash function.    
 3. Counting bloom filter.
@@ -33,6 +33,7 @@ TODO list:
 5. 
 
 Reference:
+================
     http://wiki.devklog.net/index.php?title=The_MoPaQ_Archive_Format
     http://en.wikipedia.org/wiki/MPQ
     
