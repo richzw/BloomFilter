@@ -26,8 +26,8 @@ so the hash function is the key part of bloom filter. what I am going to do as f
 
 TODO list:
 ================
-1. use MD5 hash function.    (Done)
-2. use MPQ hash function.    
+1. Use MD5 hash function.    (Done)
+2. Use MPQ hash function.    
 3. Counting bloom filter.
 4. Add test.
 5. 
