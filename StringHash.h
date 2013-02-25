@@ -1,4 +1,4 @@
-#ifndefine __STRING_HASH__
+#ifndef __STRING_HASH__
 #define __STRING_HASH__
 
 #include <string>
