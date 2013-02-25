@@ -30,7 +30,16 @@ public:
 				m_vec[i] = false;
 			}
 		}
-
+		
+		/*
+		 *@func: reset bloom filer to initialize status.
+		 */
+		void resetBloomFilter(){
+			for (size_t i = 0; i < m_vec.size(); ++i){
+				m_vec[i] = false;
+			}
+		}
+		
 		/*
 		 * @func: insert element which type is int into the bloom filter
 		 * @params: elem {unsigned int} the elemnt inserted into bloom filter
