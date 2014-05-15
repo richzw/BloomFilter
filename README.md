@@ -1,4 +1,4 @@
-Bloom-FIiter-C--
+Bloom_Filter
 ================
 
 Implement Bloom Filter in C++, initial version now.
