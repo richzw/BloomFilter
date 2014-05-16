@@ -44,7 +44,7 @@ so the hash function is the key part of bloom filter. what I am going to do as f
 
 ##Reference:
 
- * [http://wiki.devklog.net/index.php?title=The_MoPaQ_Archive_Format]
- * [http://en.wikipedia.org/wiki/MPQ]
- * [http://en.wikipedia.org/wiki/Bloom_filter]
+ * [1](http://wiki.devklog.net/index.php?title=The_MoPaQ_Archive_Format)
+ * [2](http://en.wikipedia.org/wiki/MPQ)
+ * [3](http://en.wikipedia.org/wiki/Bloom_filter)
     
